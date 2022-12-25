@@ -1,3 +1,9 @@
-//
-// Created by emre on 24.12.22.
-//
+#include "LoadPNG.h"
+
+int main(void) {
+
+    readPng();
+
+    return 0;
+}
+

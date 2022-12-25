@@ -9,7 +9,10 @@ set(SRC_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src)
 add_executable(
         ${PROJECT_NAME}
 
-        ${SRC_DIR}/main.c 
+        ${SRC_DIR}/main.c
+        ${SRC_DIR}/LoadPNG.c
+
+        ${INC_DIR}/LoadPNG.h
 )
 
 

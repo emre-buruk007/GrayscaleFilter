@@ -10,9 +10,7 @@ add_executable(
         ${PROJECT_NAME}
 
         ${SRC_DIR}/main.c
-        ${SRC_DIR}/LoadPNG.c
 
-        ${INC_DIR}/LoadPNG.h
 )
 
 

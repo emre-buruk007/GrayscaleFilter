@@ -1,9 +1,12 @@
-#include "LoadPNG.h"
+#include <stdio.h>
 
 int main(void) {
 
-    readPng();
+
+
+
 
     return 0;
 }
+
 

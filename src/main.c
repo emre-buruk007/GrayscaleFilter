@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
     unsigned error;
     unsigned char *image;
     unsigned width, height;
-    char *filePath = "../inputImage/testImage.png";
+    char *filePath = "../inputImage/secondTestImage.png";
 
     error = lodepng_decode32_file(&image, &width, &height, filePath);
     if (error) {
